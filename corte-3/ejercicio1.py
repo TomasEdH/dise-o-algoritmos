@@ -1,6 +1,6 @@
 total = 0
 
-while total >= 30:
+while total <= 30:
     jugador_1 = input('Jugador 1 ingresa un numero del 1 al 3: ')
     if jugador_1 >= 1 and jugador_1 <= 3:
         total += jugador_1
